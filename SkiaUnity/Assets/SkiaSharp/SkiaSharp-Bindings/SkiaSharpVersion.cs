@@ -3,6 +3,8 @@
 using System;
 using System.Runtime.InteropServices;
 
+#pragma warning disable CS0162 // Unreachable code detected
+
 namespace SkiaSharp
 {
 	public static unsafe class SkiaSharpVersion

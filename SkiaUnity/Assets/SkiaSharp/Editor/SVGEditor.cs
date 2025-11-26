@@ -12,8 +12,6 @@ using TextAlignment = Topten.RichTextKit.TextAlignment;
 public class SVGEditor : Editor {
   private GUIStyle selectedStyle;
   private SerializedProperty svgFile;
-  bool showHaloSettings = false;
-  bool showMoreSettings = false;
 
   private void OnEnable(){
     selectedStyle = new GUIStyle();

@@ -1,7 +1,16 @@
 {
     "name": "SkiaSharp.Unity",
-    "references": ["GUID:6de01b04fa4e14662b03fa46366da151"],
-    "includePlatforms": [],
+    "rootNamespace": "",
+    "references": [
+        "GUID:6de01b04fa4e14662b03fa46366da151"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": true,
     "overrideReferences": false,
