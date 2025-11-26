@@ -7,6 +7,8 @@ using UnityEngine.UI;
 using Topten.RichTextKit;
 using TextAlignment = Topten.RichTextKit.TextAlignment;
 
+#pragma warning disable CS0414 // Field is assigned but its value is never used
+
 namespace SkiaSharp.Unity.HB {
 	public enum HBColorFormat {
 		alpha8,
