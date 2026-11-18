@@ -1,5 +1,5 @@
 using System;
-using Newtonsoft.Json;
+using UniLitJson;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -73,7 +73,7 @@ namespace SkiaSharp.Unity {
       texture = null;
     }
     
-    states = JsonConvert.DeserializeObject<SkottieMarkers>(lottieFile.text);
+    states = JsonMapper.ToObject<SkottieMarkers>(lottieFile.text);
     animationFps = currentAnimation.Fps;
     animationDuration = currentAnimation.Duration;
       

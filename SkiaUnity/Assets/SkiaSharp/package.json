@@ -1,27 +1,27 @@
 {
-  "name": "io.github.idreamsofgame.skiaforunity.standalone",
-  "displayName": "SkiaForUnity.Standalone",
-  "version": "3.2.104",
-  "unity": "2019.3",
-  "description": "SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports. Only support standalone and editor platforms.",
-  "author": {
-    "name": "Qais Ammari",
-    "email": "ammariqais66@gmail.com"
-  },
-  "keywords": [
-    "skia",
-    "skiasharp",
-    "skottie",
-    "lottie",
-    "harfbuzz",
-    "native text",
-    "unity",
-    "animation",
-    "2d graphics"
-  ],
-  "category": "Unity",
-  "dependencies": {
-    "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
-    "com.unity.nuget.newtonsoft-json": "3.2.2"
-  }
+    "name": "io.github.idreamsofgame.skiaforunity.standalone",
+    "displayName": "SkiaForUnity.Standalone",
+    "version": "3.2.105",
+    "unity": "2019.3",
+    "description": "SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports. Only support standalone and editor platforms.",
+    "author": {
+        "name": "Qais Ammari",
+        "email": "ammariqais66@gmail.com"
+    },
+    "keywords": [
+        "skia",
+        "skiasharp",
+        "skottie",
+        "lottie",
+        "harfbuzz",
+        "native text",
+        "unity",
+        "animation",
+        "2d graphics"
+    ],
+    "category": "Unity",
+    "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
+        "io.github.idreamsofgame.unilitjson": "0.19.1"
+    }
 }
