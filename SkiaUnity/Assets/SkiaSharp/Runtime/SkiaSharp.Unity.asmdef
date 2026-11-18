@@ -2,8 +2,8 @@
     "name": "SkiaSharp.Unity",
     "rootNamespace": "SkiaSharp.Unity",
     "references": [
-        "UniLitJson",
-        "SkiaSharp"
+        "GUID:6de01b04fa4e14662b03fa46366da151",
+        "GUID:751f722359c234716bfc14ed144f963c"
     ],
     "includePlatforms": [
         "Editor",

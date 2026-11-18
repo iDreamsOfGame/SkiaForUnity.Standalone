@@ -1,7 +1,7 @@
 {
     "name": "io.github.idreamsofgame.skiaforunity.standalone",
     "displayName": "SkiaForUnity.Standalone",
-    "version": "3.2.106",
+    "version": "3.2.107",
     "unity": "2021.3",
     "description": "SkiaSharp for Unity with Lottie Animation and HarfBuzz Text, SVG Supports. Only support standalone and editor platforms.",
     "author": {
@@ -21,7 +21,9 @@
     ],
     "category": "Unity",
     "dependencies": {
-        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
-        "io.github.idreamsofgame.unilitjson": "0.19.1"
+        "io.github.idreamsofgame.unilitjson": "0.19.1",
+        "org.nuget.system.buffers": "4.6.1",
+        "org.nuget.system.memory": "4.6.3",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2"
     }
 }

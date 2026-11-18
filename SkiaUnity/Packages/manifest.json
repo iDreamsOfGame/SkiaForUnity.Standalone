@@ -6,7 +6,9 @@
     "org.nuget.system.runtime.compilerservices.unsafe": "6.1.2",
     "com.unity.modules.imgui": "1.0.0",
     "com.unity.modules.ui": "1.0.0",
-    "io.github.idreamsofgame.unilitjson": "0.19.1"
+    "io.github.idreamsofgame.unilitjson": "0.19.1",
+    "org.nuget.system.buffers": "4.6.1",
+    "org.nuget.system.memory": "4.6.3"
   },
   "scopedRegistries": [
     {
@@ -14,6 +16,9 @@
       "url": "https://package.openupm.com",
       "scopes": [
         "io.github.idreamsofgame.unilitjson",
+        "org.nuget.system.buffers",
+        "org.nuget.system.memory",
+        "org.nuget.system.numerics.vectors",
         "org.nuget.system.runtime.compilerservices.unsafe"
       ]
     }
